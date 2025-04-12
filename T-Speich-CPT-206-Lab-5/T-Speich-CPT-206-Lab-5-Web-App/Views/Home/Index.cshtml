@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+    <style>
+        .btn {
+            border: 1px groove black;
+            font-weight: bold;  
+        }
+    </style>
+</head>
+<div style="display: flex; flex-direction: column; justify-content: center; justify-self: center; gap: 20px; width: 150px;">
+    <a class="btn" asp-controller="Home" asp-action="Detail">State Details</a>
+    <a class="btn" asp-controller="Home" asp-action="Add">Add State</a>
+    <a class="btn" asp-controller="Home" asp-action="Modify">Modify State</a>
+    <a class="btn" asp-controller="Home" asp-action="Delete">Delete State</a>
+</div>

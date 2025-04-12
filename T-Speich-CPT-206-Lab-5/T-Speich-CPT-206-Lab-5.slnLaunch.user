@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "T-Speich-CPT-206-Lab-5-Web-App\\T-Speich-CPT-206-Lab-5-Web-App.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "T-Speich-CPT-206-Lab-5\\T-Speich-CPT-206-Lab-5-API.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

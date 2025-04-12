@@ -1,0 +1,6 @@
+@T_Speich_CPT_206_Lab_5_HostAddress = http://localhost:5262
+
+GET {{T_Speich_CPT_206_Lab_5_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

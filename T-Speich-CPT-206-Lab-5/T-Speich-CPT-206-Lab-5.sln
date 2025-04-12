@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T-Speich-CPT-206-Lab-5-API", "T-Speich-CPT-206-Lab-5\T-Speich-CPT-206-Lab-5-API.csproj", "{6D36EC4F-5C46-48C0-9AE5-01144CB8B675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T-Speich-CPT-206-Lab-5-Web-App", "T-Speich-CPT-206-Lab-5-Web-App\T-Speich-CPT-206-Lab-5-Web-App.csproj", "{CC196FEA-B33F-43C5-A382-E8B54554BFEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D36EC4F-5C46-48C0-9AE5-01144CB8B675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D36EC4F-5C46-48C0-9AE5-01144CB8B675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D36EC4F-5C46-48C0-9AE5-01144CB8B675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D36EC4F-5C46-48C0-9AE5-01144CB8B675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC196FEA-B33F-43C5-A382-E8B54554BFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC196FEA-B33F-43C5-A382-E8B54554BFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC196FEA-B33F-43C5-A382-E8B54554BFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC196FEA-B33F-43C5-A382-E8B54554BFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCFD36E2-4FA6-40B1-B45E-98B43B2CEEEE}
+	EndGlobalSection
+EndGlobal

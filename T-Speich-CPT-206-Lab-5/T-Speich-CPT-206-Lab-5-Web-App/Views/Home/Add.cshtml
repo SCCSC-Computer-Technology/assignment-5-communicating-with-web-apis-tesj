@@ -1,0 +1,58 @@
+﻿@using T_Speich_CPT_206_Lab_5
+@model T_Speich_CPT_206_Lab_5.Models.State
+@{
+}
+@using (Html.BeginForm("Add", "Home", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(model => model.State_Name, "State Name")
+        @Html.TextBoxFor(model => model.State_Name, new { @class = "form-control", required = "required" })
+        @Html.ValidationMessageFor(model => model.State_Name)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.State_Capital, "State Capital")
+        @Html.TextBoxFor(model => model.State_Capital, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.State_Capital)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.State_Largest_Cities, "3 Largest Cities")
+        @Html.TextBoxFor(model => model.State_Largest_Cities, new { @class = "form-control", required = "required" })
+        @Html.ValidationMessageFor(model => model.State_Largest_Cities)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.State_Flag_Description, "Flag Description")
+        @Html.TextBoxFor(model => model.State_Flag_Description, new { @class = "form-control", required = "required" })
+        @Html.ValidationMessageFor(model => model.State_Flag_Description)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.State_Colors, "State Colors")
+        @Html.TextBoxFor(model => model.State_Colors, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.State_Colors)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.State_Bird, "State Bird")
+        @Html.TextBoxFor(model => model.State_Bird, new { @class = "form-control", required = "required" })
+        @Html.ValidationMessageFor(model => model.State_Bird)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.State_Flower, "State Flower")
+        @Html.TextBoxFor(model => model.State_Flower, new { @class = "form-control", required = "required" })
+        @Html.ValidationMessageFor(model => model.State_Flag_Description)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.State_Population, "State Population")
+        @Html.TextBoxFor(model => model.State_Population, new { @class = "form-control", required = "required" })
+        @Html.ValidationMessageFor(model => model.State_Population)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.State_Median_Income, "State Median Income")
+        @Html.TextBoxFor(model => model.State_Median_Income, new { @class = "form-control", required = "required" })
+        @Html.ValidationMessageFor(model => model.State_Median_Income)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(model => model.State_Computer_Jobs_Percent, "State Computer Job Percentage")
+        @Html.TextBoxFor(model => model.State_Computer_Jobs_Percent, new { @class = "form-control", required = "required" })
+        @Html.ValidationMessageFor(model => model.State_Computer_Jobs_Percent)
+    </div>
+    <button type="submit">Add State</button>
+}
