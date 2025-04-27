@@ -1,0 +1,5 @@
+Once I open Thomas program a Microsoft Visual Studio message pop up and said, "The following error occurred running the dev-certs
+tool to trust the ASP.NET Core development certificate. The operation has timed out." Then I waited and then my Norton told me that
+the file was infected with IDP.Generic and then I just close out the program and Norton told me again that it the folder/program
+has been moved to my Quarantine so, I wasn't really able to test out the assignment. However, I think I could image the work Thomas
+put in would look amazing because of his passion and skills he has put into his assignments. 
